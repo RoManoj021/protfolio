@@ -1,0 +1,69 @@
+@media (max-width:991px) {
+  /* Custom CSS for screens up to 991px width */
+
+  /* Adjust padding for sections */
+  section {
+    padding: 30px;
+  }
+
+  /* Font size adjustments */
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  /* Styles for header when scrolled */
+  .header-scrolled {
+    height: auto;
+  }
+  .header_wrapper .menu-navbar-nav {
+    text-align: center;
+    background-color:var(--bg-dark-blue); 
+    padding-bottom: 15px;
+  }
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 15px;
+  }
+
+  /* Padding for the banner section */
+  .banner_wrapper {
+    padding: 200px 0px;
+  }
+}
+.about_wrapper ul.nav-pills {
+  width: 61%;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+
+
+  /* Custom CSS for screens up to 767px width */
+
+  /* Font size adjustments */
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+
+  /* About */
+  .about_wrapper ul.nav-pills {
+    width: 100%;
+    margin: auto;
+    border: 0;
+  }
+  .about_wrapper ul li .nav-link {
+   font-size: 13px;
+}
+  /*portfolio */
